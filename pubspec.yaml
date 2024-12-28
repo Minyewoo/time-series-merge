@@ -1,0 +1,15 @@
+name: time_series_merge
+description: A command-line tool for merging time series csv files.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  args: ^2.4.2
+  csv: ^6.0.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
